@@ -1,6 +1,6 @@
 # hover-after-moved
 
-Hover over a file after moved it to another folder.
+Hover over a file after moved/copied it to another folder.
 
 > [!IMPORTANT]
 > Minimum version: yazi v25.5.31.
@@ -8,6 +8,9 @@ Hover over a file after moved it to another folder.
 ## Requirements
 
 - [yazi >= 25.5.31](https://github.com/sxyazi/yazi)
+
+> [!NOTE]
+> Yazi >= 25.9.15 (use `yazi --debug`) also supports copy/yank action.
 
 ## Installation
 
