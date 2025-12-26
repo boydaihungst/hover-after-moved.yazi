@@ -7,6 +7,7 @@ local M = {}
 function M:setup()
 	ps.sub("@yank", function(_)
 		ps.unsub("move")
+		ps.unsub("duplicate")
 		ps.sub("duplicate", function(payload)
 			ya.err("duplicate", payload)
 			if not payload then
