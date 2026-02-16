@@ -24,7 +24,7 @@ function M:setup()
 						== payload.items[1].to.parent
 				then
 					ya.emit("reveal", {
-						payload.items[1].to,
+						tostring(payload.items[1].to),
 						no_dummy = true,
 						raw = true,
 						tab = cx.active.id.value,
@@ -52,7 +52,7 @@ function M:setup()
 						== payload.items[1].to.parent
 				then
 					ya.emit("reveal", {
-						payload.items[1].to,
+						tostring(payload.items[1].to),
 						no_dummy = true,
 						raw = true,
 						tab = cx.active.id.value,
