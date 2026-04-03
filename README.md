@@ -1,4 +1,10 @@
-# hover-after-moved
+# hover-after-moved 
+
+## Deprecated
+
+> [!IMPORTANT]
+> With the new version of yazi (> v26.1.22), this plugin is no longer need.  
+> Check this: https://github.com/sxyazi/yazi/pull/3846
 
 Hover over a file after moved/copied it to another folder.
 
